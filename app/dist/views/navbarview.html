@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand navbar-light fixed-top" style="border-bottom: 1px solid lightgrey">
+  <a class="navbar-brand ml-5" href="" ng-click="navbar.switchTab('about')" style="color: #88c3c8">Alymbek Sadybakasov</a>
+  <div class="collapse navbar-collapse d-flex justify-content-end mr-5">
+    <ul class="navbar-nav">
+      <li class="nav-item" ng-class="navbar.tab=='about' ? 'active' : ''">
+        <a class="nav-link fade-link" href="" ng-click="navbar.switchTab('about')">About</a>
+      </li>
+      <!--<li class="nav-item" ng-class="navbar.tab=='stuff' ? 'active' : ''">
+        <a class="nav-link" href="" ng-click="navbar.switchTab('stuff')">Stuff</a>
+      </li>-->
+      <li class="nav-item" ng-class="navbar.tab=='blog' || navbar.tab=='post' ? 'active' : ''">
+        <a class="nav-link fade-link" href="" ng-click="navbar.switchTab('blog')">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fade-link" href="https://www.linkedin.com/in/alymbek-sadybakasov/" target="_blank">linkedin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fade-link" href="https://github.com/trojan03" target="_blank">github</a>
+      </li>
+    </ul>
+  </div>
+</nav>

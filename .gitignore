@@ -1,0 +1,5 @@
+.idea
+.settings
+/app/bower_components
+app.js
+app.js.map

@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "removeComments": false,
+    "target": "es5",
+  	"outFile": "./../dist/app.js"
+    },
+  "files": [
+      "controllers/aboutController.ts",
+      "controllers/blogController.ts",
+      "controllers/blogPostController.ts",
+      "controllers/mainController.ts",
+      "controllers/navbarController.ts",
+      "index.route.ts",
+      "index.main.ts"
+  ]
+}

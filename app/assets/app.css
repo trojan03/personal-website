@@ -1,0 +1,39 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*General*/
+.fade{
+  opacity: 1;
+}
+.fade.ng-enter { transition:0.5s linear all; opacity:0; }
+.fade.ng-enter.ng-enter-active { opacity:1; }
+.fade.ng-leave { transition:0s linear all; opacity:1; }
+.fade.ng-leave.ng-leave-active { opacity:0; }
+
+.fade-link{
+  transition:0.2s linear all; opacity:1;
+}
+.fade-link:hover {
+  transition:0.2s linear all; opacity:1;
+}
+
+
+/*Blog*/
+.blog-post:hover {
+  background: lightgrey;
+  cursor: pointer;
+}
+.blog-post-link {
+  color: black;
+}
+.blog-post-link:hover{
+  text-decoration: none;
+  color: black;
+}
+code {
+  color: red !important
+}
