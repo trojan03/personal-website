@@ -27,8 +27,9 @@ module App {
         $http.get(url).then((result) => {
           result.data.forEach(post => {
             this.posts.push(new BlogPost(post.id, post.title, post.summary, post.date))
-          })
-        })
+          });
+          this.posts = this.posts.slice().reverse();
+        });
       }
 
       public openPost(postId: number): string {
