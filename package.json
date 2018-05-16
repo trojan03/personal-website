@@ -1,0 +1,8 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "dependencies": {
+    "highlightjs": "^9.10.0",
+    "jquery": "^3.3.1"
+  }
+}

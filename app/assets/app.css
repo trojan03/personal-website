@@ -34,6 +34,7 @@ html, body {
   text-decoration: none;
   color: black;
 }
-code {
-  color: red !important
+
+pre {
+  background-color: #f6f8fa;
 }

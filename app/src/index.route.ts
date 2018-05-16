@@ -26,7 +26,7 @@ module App {
         controllerAs: 'blogPostController'
       })
       .otherwise({
-        redirectTo: '/about'
+        redirectTo: '/blog'
       });
   }
 }

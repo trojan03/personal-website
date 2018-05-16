@@ -3,7 +3,15 @@
   </div>
   <div class="row">
     <div class="col">
-      <img src="assets/pic.JPG" height=300/>
+      <span us-spinner spinner-key="image-spinner" spinner-start-active="true"></span>
+      <img
+        src="assets/pic.JPG"
+        bc-imagesloaded
+        alt=""
+        height=300
+        bc-progress-method="aboutController.startSpinner()"
+        bc-done-method="aboutController.stopSpinner()"
+      />
     </div>
     <div class="col text-left">
       <p>
