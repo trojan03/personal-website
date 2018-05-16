@@ -3,3 +3,5 @@
 /app/bower_components
 app.js
 app.js.map
+/node_modules
+/app/node_modules
