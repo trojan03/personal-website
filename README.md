@@ -17,5 +17,7 @@ bower install
 For Atom IDE, a tsconfig.json handles the compilation process. In case you want to build the site by yourself, navigate to app/src and run `tsc`. This command will generate `app/dist/app.js`.
 To deploy on github pages, push the all files from `app` except for `src`.
 For local deployment, I recommend to use [live-server](https://github.com/tapio/live-server).
+## TODO
+- [ ] Migrate packages from bower to npm
 ## License
 MIT © [Alymbek Sadybakasov](http://trojan03.github.io)
